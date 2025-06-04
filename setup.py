@@ -20,4 +20,4 @@ setup(
     python_requires=">=3.8,<3.9",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-) 
+)
