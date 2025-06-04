@@ -1,4 +1,4 @@
-from setuptools import setup, find_packages
+from setuptools import setup
 from setuptools_scm import get_version
 
 def load_requirements(filename):
@@ -11,7 +11,7 @@ setup(
     setup_requires=['setuptools_scm'],
     description="T-Rep: Representation Learning for Time-Series Using Time-Embeddings",
     url="https://github.com/let-it-care/t-rep",
-    packages=find_packages(),
+    packages=[".", "models", "tasks"],
     install_requires=load_requirements('requirements.txt'),
     classifiers=[
         "Programming Language :: Python :: 3",
