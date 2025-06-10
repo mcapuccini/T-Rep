@@ -1,5 +1,4 @@
 from setuptools import setup
-from setuptools_scm import get_version
 
 def load_requirements(filename):
     with open(filename) as f:
